@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card{
+  border: 1px solid gray;
+  width: 400px;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fullScreen{
+  outline: none;
+  background-color: green;
+  color: bisque;
+  cursor: pointer;
+}
+
